@@ -14,4 +14,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install baygon
       - name: Install dependencies
-        run: python -m baygon
+        run: python -m baygon ./prog.py
